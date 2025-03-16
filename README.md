@@ -1,4 +1,4 @@
-(Due to technical issues, the search service is temporarily unavailable.)
+
 
 # Путеводный бот для проекта "Цифровые тропы – Терра-Политех 2025"
 
