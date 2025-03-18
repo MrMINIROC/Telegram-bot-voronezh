@@ -2,9 +2,7 @@ from config import TOKEN
 from apps.handlers import router
 import asyncio
 import logging
-
 from aiogram import Bot, Dispatcher
-
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
