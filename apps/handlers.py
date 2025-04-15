@@ -28,7 +28,7 @@ async def start_route(message: Message):
     
     # Отправляем описание и клавиатуру
     await message.answer(
-        text=f"{first_location['name']}\n\n{first_location_info['description']}",
+        text=f"📍название📍 {first_location['name']}\n\n📝описание📝 {first_location_info['description']}",
         reply_markup=first_location_info["keyboard"]
     )
 
@@ -64,7 +64,7 @@ async def get_location_info(message: Message):
     
     # Отправляем описание и клавиатуру
     await message.answer(
-        text=f"{location_name}\n\n{location_info['description']}",
+        text=f"📍название📍 {location_name}\n\n📝описание📝 {location_info['description']}",
         reply_markup=location_info["keyboard"]
     )
 
